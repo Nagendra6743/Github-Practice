@@ -1,0 +1,122 @@
+ 301  git version
+  302  cd
+  303  pwd
+  304  git clone https://github.com/Nagendra6743/Github-Practice.git
+  305  ls -lrt
+  306  cd Github-Practice/
+  307  clear
+  308  echo "Hello, GitHub!" > hello.txt
+  309  ls -lrt
+  310  git status
+  311  git add hello.txt
+  312  git status
+  313  git rm --cached hello.txt
+  314  git status
+  315  history
+  316  pwd
+  317  ls -lrt
+  318  git status
+  319  git add hello.txt
+  320  git commit -m "Add hello.txt"
+  321  git status
+  322  git push origin main
+  323  git branch -r
+  324  git checkout -b feature-branch
+  325  git branch -r
+  326  git branch
+  327  echo "This is a new feature!" > feature.txt
+  328  git status
+  329  git add feature.txt
+  330  git commit -m "Add feature.txt"
+  331  git push origin feature-branch
+  332  pwd
+  333  ls -lrt
+  334  git branch
+  335  git checkout main
+  336  git branch
+  337  git pull
+  338  ls -lrt
+  339  git branch -d feature-branch
+  340  git branch
+  341  git push origin --delete feature-branch
+  342  git log --oneline
+  343  git log --graph --oneline
+  344  git staus
+  345  git status
+  346  clear
+  347  pwd
+  348  history
+349  clear
+  350  pwd
+  351  ls -lrt
+  352  echo "More text" >> hello.txt
+  353  git diff
+  354  git checkout -b dev
+  355  git branch
+  356  git pull hello.txt
+  357  git pull origin main
+  358  ls -lrt
+  359  git checkout -b test
+  360  pwd
+  361  ls -lrt
+  362  echo "Hello World, github" >> practice.txt
+  363  ls -lrt
+  364  git fetch origin main
+  365  ls -lrt
+  366  ls -lrt
+  367  git fetch orgin main
+  368  git fetch origin main
+  369  l s-lrt
+  370  ls -lrt
+  371  git pull origin main
+  372  ls -lrt
+  373  git fetch
+  374  ls -lrt
+  375  git merge origin main
+  376  ls -lrt
+  377  history
+  378  ls -lrt
+  379  git checkout main
+  380  ls -lrt
+  381  git pull origin main
+  382  ls -lrt
+  383  cat practice.txt
+  384  git status
+  385  git add .;git commit -m "add Practice.txt"; git push origin main
+  386  git status
+  387  pwd
+  388  git branch
+  389  git checkout dev
+  390  ls -lrt
+  391  git fecth origin main
+  392  git fetch origin main
+  393  git diff main FETCH_HEAD
+  394  git merge origin/main
+
+
+git init
+git config --global user.name
+git config --global user.email
+git clone <remote repo url>
+git add <filename>
+git commit -m "message"
+git push origin main
+
+git branch
+git branch <branchname>
+git checkout -b <branchname>
+git checkout <branchname>
+git log --oneline
+git log --graph --oneline
+git diff
+git branch -r (remote branches)
+git fetch origin main
+git merge origin main
+git pull origin main
+git diff dev FETCH_HEAD
+
+rebase, reset(soft, hard), revert,cherrypick, stash, 
+
+
+
+
